@@ -1,9 +1,96 @@
-<mxfile host="app.diagrams.net" modified="2023-10-08T02:40:15.481Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" version="21.8.0" etag="rllIJdACfFz5KkoJXnfz" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-08T02:46:39.226Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="OAOJGfKE3AKR76gfyRri" version="21.8.0" type="github">
   <diagram name="第 1 页" id="Mn_YfIFMZ9wJ5T7yE2tc">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="279" width="560" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="118" width="560" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-1" value="Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-2" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-3" value="&lt;div&gt;KDC&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="kgsWq4mtu4_hOZa2JKra-1" target="kgsWq4mtu4_hOZa2JKra-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="180" as="sourcePoint" />
+            <mxPoint x="250" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="kgsWq4mtu4_hOZa2JKra-2" target="kgsWq4mtu4_hOZa2JKra-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="170" as="sourcePoint" />
+            <mxPoint x="440" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="kgsWq4mtu4_hOZa2JKra-3" target="kgsWq4mtu4_hOZa2JKra-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="230" as="sourcePoint" />
+            <mxPoint x="450" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-11" value="&lt;div&gt;3.返回授权信息&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kgsWq4mtu4_hOZa2JKra-6">
+          <mxGeometry x="0.1" y="6" relative="1" as="geometry">
+            <mxPoint x="7" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="kgsWq4mtu4_hOZa2JKra-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="190" as="sourcePoint" />
+            <mxPoint x="200" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-13" value="&lt;div&gt;4.状态返回&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kgsWq4mtu4_hOZa2JKra-7">
+          <mxGeometry x="0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="7" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-8" value="1.资源访问请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="148" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-10" value="2.查询用户授权信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="148" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-15" value="Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-16" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="kgsWq4mtu4_hOZa2JKra-15" target="kgsWq4mtu4_hOZa2JKra-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="342" as="sourcePoint" />
+            <mxPoint x="330" y="292" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="kgsWq4mtu4_hOZa2JKra-16" target="kgsWq4mtu4_hOZa2JKra-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="352" as="sourcePoint" />
+            <mxPoint x="280" y="352" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-19" value="2.比较PAC与本地ACL，返回状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kgsWq4mtu4_hOZa2JKra-18">
+          <mxGeometry x="0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="16" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-20" value="1.资源访问请求（包含 PAC）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="310" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-22" value="有 PAC 的情况" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="380" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-23" value="无 PAC 的情况" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="210" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
