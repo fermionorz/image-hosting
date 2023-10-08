@@ -1,10 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2023-10-08T02:46:39.226Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="OAOJGfKE3AKR76gfyRri" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-08T03:24:59.306Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="BvmAqHdMoCTqIie3jU6D" version="21.8.0" type="github">
   <diagram name="第 1 页" id="Mn_YfIFMZ9wJ5T7yE2tc">
     <mxGraphModel dx="794" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kgsWq4mtu4_hOZa2JKra-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-60" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="118" width="720" height="482" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="240" width="20" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-58" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.2;entryY=0.778;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1191" y="520" as="sourcePoint" />
+            <mxPoint x="930" y="520.08" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1106" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-47" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="400" width="20" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="240" width="20" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-21" value="d" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="279" width="560" height="122" as="geometry" />
         </mxCell>
         <mxCell id="kgsWq4mtu4_hOZa2JKra-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -90,6 +111,105 @@
         </mxCell>
         <mxCell id="kgsWq4mtu4_hOZa2JKra-23" value="无 PAC 的情况" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="310" y="210" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-24" value="Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-25" value="KDC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-26" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-27" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="kgsWq4mtu4_hOZa2JKra-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="190" as="sourcePoint" />
+            <mxPoint x="1240" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-31" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kgsWq4mtu4_hOZa2JKra-37" target="kgsWq4mtu4_hOZa2JKra-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1480" y="600" as="sourcePoint" />
+            <mxPoint x="930" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-32" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kgsWq4mtu4_hOZa2JKra-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200" y="550" as="sourcePoint" />
+            <mxPoint x="1200" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-34" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="kgsWq4mtu4_hOZa2JKra-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="560" as="sourcePoint" />
+            <mxPoint x="920" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="kgsWq4mtu4_hOZa2JKra-35" target="kgsWq4mtu4_hOZa2JKra-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="250" as="sourcePoint" />
+            <mxPoint x="1090" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-40" value="1.AS-REQ：客户端向 KDC 的AS 请求 TGT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="940" y="210" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.019;entryY=0.124;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="kgsWq4mtu4_hOZa2JKra-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1470" y="280" as="sourcePoint" />
+            <mxPoint x="940" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-42" value="2.AS-REP：身份验证通过，发放 TGT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="249" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="320" as="sourcePoint" />
+            <mxPoint x="1470" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-44" value="3.TGS-REQ：使用 TGT 向 KDC 请求 ST" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="945" y="290" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.111;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1470" y="359" as="sourcePoint" />
+            <mxPoint x="930" y="359" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-46" value="4.TGS-REP：身份认证通过后，KDC 发放 ST" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="330" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-51" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="kgsWq4mtu4_hOZa2JKra-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="400" as="sourcePoint" />
+            <mxPoint x="1320" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-52" value="5.AP-REQ：使用 ST 向 Server 请求服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="940" y="371" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-53" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1210" y="440" as="sourcePoint" />
+            <mxPoint x="1470" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-54" value="校验 PAC_PRIVSVR_CHECKSUM 签名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="410" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-56" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="kgsWq4mtu4_hOZa2JKra-37" target="kgsWq4mtu4_hOZa2JKra-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1460" y="480" as="sourcePoint" />
+            <mxPoint x="1290" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-57" value="KDC 返回校验结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="450" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kgsWq4mtu4_hOZa2JKra-59" value="&lt;div&gt;6.AS-REP：这一步为可选，用于验证服务端&lt;/div&gt;&lt;div&gt;双向认证后，服务端返回服务资源&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="930" y="480" width="260" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
