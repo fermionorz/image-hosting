@@ -1,9 +1,105 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T09:03:42.858Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" version="22.0.4" etag="HOGUzpm63440W2i1U86z" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T09:14:01.660Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="Tlj13G0xrX-5Nah4F3FA" version="22.0.4" type="github">
   <diagram name="第 1 页" id="ZDr5vjkKfLyj0icd-GqV">
-    <mxGraphModel>
+    <mxGraphModel dx="662" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="geqOU8Ly6QwuSXcI2jb7-1" value="User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="geqOU8Ly6QwuSXcI2jb7-2" value="Server 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="geqOU8Ly6QwuSXcI2jb7-3" value="Server 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="geqOU8Ly6QwuSXcI2jb7-4" value="Server N" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="geqOU8Ly6QwuSXcI2jb7-5" value="KDC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="geqOU8Ly6QwuSXcI2jb7-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="geqOU8Ly6QwuSXcI2jb7-8" target="geqOU8Ly6QwuSXcI2jb7-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="520" as="sourcePoint" />
+            <mxPoint x="70" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="geqOU8Ly6QwuSXcI2jb7-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="geqOU8Ly6QwuSXcI2jb7-10" target="geqOU8Ly6QwuSXcI2jb7-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="520" as="sourcePoint" />
+            <mxPoint x="540" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="geqOU8Ly6QwuSXcI2jb7-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="geqOU8Ly6QwuSXcI2jb7-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="720" as="sourcePoint" />
+            <mxPoint x="80" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="geqOU8Ly6QwuSXcI2jb7-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="120" width="20" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="geqOU8Ly6QwuSXcI2jb7-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="geqOU8Ly6QwuSXcI2jb7-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="720" as="sourcePoint" />
+            <mxPoint x="560" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="geqOU8Ly6QwuSXcI2jb7-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="120" width="20" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="geqOU8Ly6QwuSXcI2jb7-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="geqOU8Ly6QwuSXcI2jb7-8" target="geqOU8Ly6QwuSXcI2jb7-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="300" as="sourcePoint" />
+            <mxPoint x="440" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="geqOU8Ly6QwuSXcI2jb7-13" value="1. 用户发送 AS-REQ 包进行 Kerberos 认证&amp;nbsp;&amp;nbsp; " style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="90" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="geqOU8Ly6QwuSXcI2jb7-15" value="2. KDC 在 AS-REP 包中返回 TGT 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="215" y="128" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="geqOU8Ly6QwuSXcI2jb7-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="200" as="sourcePoint" />
+            <mxPoint x="550" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="geqOU8Ly6QwuSXcI2jb7-17" value="3. 用户发送 TGS-REQ 包请求可转发的 TGT 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="170" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="geqOU8Ly6QwuSXcI2jb7-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.006;exitY=0.236;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.019;entryY=0.235;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="240" as="sourcePoint" />
+            <mxPoint x="90" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="geqOU8Ly6QwuSXcI2jb7-19" value="4. KDC 在 TGS-REP 包中返回可转发的 TGT 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="210" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="geqOU8Ly6QwuSXcI2jb7-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="280" as="sourcePoint" />
+            <mxPoint x="550" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="geqOU8Ly6QwuSXcI2jb7-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.006;exitY=0.236;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.019;entryY=0.235;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="160" as="sourcePoint" />
+            <mxPoint x="90" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="geqOU8Ly6QwuSXcI2jb7-24" value="5. 用户使用 TGT 1 请求 Server 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="250" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="geqOU8Ly6QwuSXcI2jb7-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.006;exitY=0.236;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.019;entryY=0.235;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="250" as="sourcePoint" />
+            <mxPoint x="100" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
