@@ -1,10 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T01:15:47.959Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="vy7AiC8a40csr4qFeKpP" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T01:21:59.738Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="qQMuaWK-c5BFSF3iQkQL" version="22.0.4" type="github">
   <diagram name="第 1 页" id="ZDr5vjkKfLyj0icd-GqV">
-    <mxGraphModel dx="1038" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="862" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7yoMR9bMtqDJIdtvnZNh-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HPla1o8godMDjGClW9z5-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1680" width="640" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="HPla1o8godMDjGClW9z5-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="350" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HPla1o8godMDjGClW9z5-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="120" width="20" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="HPla1o8godMDjGClW9z5-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="120" width="20" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="7yoMR9bMtqDJIdtvnZNh-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="840" width="640" height="600" as="geometry" />
         </mxCell>
         <mxCell id="usVfSzNqkV0ZZe4DDIiA-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -351,6 +363,96 @@
         </mxCell>
         <mxCell id="usVfSzNqkV0ZZe4DDIiA-40" value="10. 响应用户的请求 5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="930" y="449.31" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HPla1o8godMDjGClW9z5-2" value="Server A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HPla1o8godMDjGClW9z5-3" value="Server B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HPla1o8godMDjGClW9z5-4" value="KDC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HPla1o8godMDjGClW9z5-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1770" y="120" as="sourcePoint" />
+            <mxPoint x="1990" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HPla1o8godMDjGClW9z5-6" value="&lt;div&gt;1、申请可转发的 TGT&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HPla1o8godMDjGClW9z5-7" value="&lt;div&gt;3、以其他用户名义通过 S4u2Self 协议&lt;/div&gt;&lt;div&gt;申请访问自己的 ST 1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1765" y="160" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HPla1o8godMDjGClW9z5-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1990" y="160" as="sourcePoint" />
+            <mxPoint x="1770" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HPla1o8godMDjGClW9z5-9" value="2、返回的 TGT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="128" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HPla1o8godMDjGClW9z5-10" value="4、验证通过后返回不可转发的 ST 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1775" y="210" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HPla1o8godMDjGClW9z5-11" value="&lt;div&gt;5、以其他用户名义通过 S4u2Proxy 协议&lt;/div&gt;&lt;div&gt;申请 Server B 的 ST2，ST 1附着在请求中&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1755" y="240" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HPla1o8godMDjGClW9z5-12" value="6、身份验证通过后返回可转发的 ST 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1765" y="290" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HPla1o8godMDjGClW9z5-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1770" y="360" as="sourcePoint" />
+            <mxPoint x="2230" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HPla1o8godMDjGClW9z5-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1770" y="200" as="sourcePoint" />
+            <mxPoint x="1990" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HPla1o8godMDjGClW9z5-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1990" y="240" as="sourcePoint" />
+            <mxPoint x="1770" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HPla1o8godMDjGClW9z5-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1770" y="280" as="sourcePoint" />
+            <mxPoint x="1990" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HPla1o8godMDjGClW9z5-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1990" y="320" as="sourcePoint" />
+            <mxPoint x="1770" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HPla1o8godMDjGClW9z5-19" value="7、使用具有其他用户权限的 ST 2 访问 Server B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="330" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HPla1o8godMDjGClW9z5-20" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="HPla1o8godMDjGClW9z5-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1760" y="400" as="sourcePoint" />
+            <mxPoint x="2040" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HPla1o8godMDjGClW9z5-21" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="HPla1o8godMDjGClW9z5-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2000" y="400" as="sourcePoint" />
+            <mxPoint x="2040" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HPla1o8godMDjGClW9z5-22" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="HPla1o8godMDjGClW9z5-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2240" y="400" as="sourcePoint" />
+            <mxPoint x="2040" y="210" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
